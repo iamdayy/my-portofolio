@@ -1,0 +1,11 @@
+module.exports = {
+  apps: [
+    {
+      name: 'Signatures',
+      port: '3005',
+script: 'bun',
+      interpreter: 'none',
+      args: 'run start -p 3005',
+    }
+  ]
+}
