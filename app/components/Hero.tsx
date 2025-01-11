@@ -25,7 +25,7 @@ const Hero = () => {
           >
             <AnimatedImage
               src="/img/me.png"
-              alt="Dayan Sauqy"
+              alt="Dayan Sauqy | Fullstack Developer"
               width={500}
               height={500}
               className="rounded-full mx-auto"
@@ -63,7 +63,7 @@ const Hero = () => {
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
               >
-                <Github />
+                <Github aria-label="Github Profile" />
               </a>
               <a
                 href="https://linkedin.com/in/dayan-sauqy"
@@ -71,13 +71,13 @@ const Hero = () => {
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
               >
-                <Linkedin />
+                <Linkedin aria-label="Linkedin Profile" />
               </a>
               <a
                 href="mailto:iamdayy14@gmail.com"
                 className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
               >
-                <Mail />
+                <Mail aria-label="Email Contact" />
               </a>
             </motion.div>
           </motion.div>
